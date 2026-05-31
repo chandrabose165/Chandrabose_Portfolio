@@ -4,19 +4,24 @@ export function Skills() {
   const skillCategories = [
     {
       title: "Programming Languages",
-      skills: ["Python", "Java", "R Programming", "HTML", "CSS", "JavaScript"]
+      skills: ["Python", "Java", "R Programming"]
+    },
+    {
+      title: "Frontend Technologies",
+      skills:["React.js","HTML5","CSS","JavaScript"]
+
     },
     {
       title: "Databases & Cloud",
-      skills: ["MySQL", "MongoDB", "NoSQL", "AWS Cloud Storage", "AWS Cloud Computing"]
+      skills: ["MySQL"]
     },
     {
       title: "Data Analysis & Visualization",
-      skills: ["Power BI", "Tableau", "Excel", "Data Visualization", "Statistical Analysis"]
+      skills: ["Power BI", "Tableau", "Excel", "Data Visualization"]
     },
     {
       title: "Frameworks & Technologies",
-      skills: ["Java Full Stack", "Spring Boot", "Frontend Development", "Object-Oriented Programming"]
+      skills: ["Java Full Stack", "Frontend Development", "Object-Oriented Programming"]
     }
   ];
 
