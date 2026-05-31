@@ -28,17 +28,18 @@ export function About() {
             About Me
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            BTech Data Science graduate with expertise in analytical programming and data visualization, 
-            passionate about creating impactful solutions in dynamic organizations.
+            B.Tech Computer Science and Engineering 
+            graduate with expertise in Java backend development and 
+            full stack application building, passionate about creating scalable and reliable software solutions for real-world business problems.
           </p>
         </div>
         
         <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
           <div>
             <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-              As a BTech Data Science graduate from Malla Reddy University with a strong CGPA of 8.00, 
-              I have foundational knowledge in Power BI, Tableau, and R programming. My expertise spans 
-              Java Full Stack development with hands-on experience in Spring Boot and frontend technologies.
+              B.Tech Computer Science and Engineering student at
+              Malla Reddy University (2026) with hands-on experience building
+              full stack web applications. Proficient in Java, Spring Boot, React.js, and MySQL, delivering projects across backend development, REST APIs, and frontend interfaces. Applying scalable software solutions to solve real-world business problems.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed">
               Beyond coding, I enjoy cooking and cricket. I'm passionate about creating sustainable, 

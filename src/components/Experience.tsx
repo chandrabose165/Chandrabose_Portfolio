@@ -7,7 +7,7 @@ export function Experience() {
     {
       title: "AICTE Virtual Internship",
       company: "AICTE",
-      duration: "May 2025 - Jun 2025",
+      duration: "Jun 2024 - Aug 2024",
       type: "Internship",
       description: "Completed an internship focused on Java programming, applying object-oriented concepts to support ongoing development projects. Connected Java programming with hands-on exposure to object-oriented principles and foundational NoSQL database concepts.",
       achievements: [
@@ -21,7 +21,7 @@ export function Experience() {
     {
       title: "Deloitte Virtual Internship", 
       company: "Deloitte",
-      duration: "Jan 2025 - Jun 2025",
+      duration: "Jun 2025 - Jun 2025",
       type: "Internship",
       description: "Completed a data analysis internship focused on practical applications of Excel and Tableau, gaining hands-on experience in data visualization and insight discovery.",
       achievements: [

@@ -5,20 +5,28 @@ import { ExternalLink, Github } from "lucide-react";
 export function Projects() {
   const projects = [
     {
-      title: "Carpooling Platform",
+      title: "Car Pooling Platform",
       description: "A secure, user-friendly carpooling platform featuring real-time ride matching and route optimization to reduce fuel consumption. Integrated cost-sharing mechanisms and seamless payment processing to make commuting affordable, efficient, and sustainable.",
       technologies: ["Frontend Development", "Real-time Processing", "Route Optimization", "Payment Integration"],
       liveUrl: "https://car-pooling-client.vercel.app/",
       githubUrl: "https://github.com/vijaykumar851/CarPooling-Client.git",
-      imageGradient: "from-green-500 to-teal-500"
+      imageUrl: "/Project.jpg"
     },
     {
-      title: "Blood Banking System",
-      description: "Leveraged AWS cloud and frontend expertise to build secure, efficient blood donor and inventory management platform. Developed secure system for streamlined donor registration, real-time blood inventory tracking, and emergency request handling.",
-      technologies: ["AWS Cloud Storage", "Frontend Development", "Real-time Tracking", "Data Management"],
-      githubUrl: "https://github.com/chandrabose165",
-      imageGradient: "from-red-500 to-pink-500"
-    }
+      title: "Transport Management Platform",
+      description: "Developed a full-stack transport booking platform with React and Spring Boot, implementing JWT-based authentication and role-based access control for user and admin workflows Built RESTful APIs for multi-modal search (flights, trains, buses, cargo) and integrated end-to-end",
+      technologies: ["Frontend Development", "Real-time Tracking", "Data Management","payment Intergration"],
+      githubUrl: "https://github.com/chandrabose165/Transport_management_cilent.git",
+      liveUrl: "https://transport-management-cilent-7jyo.vercel.app/",
+      imageUrl: "/project2.jpg"
+    },{
+      title: "smart Irrgation System using cloud storage ",
+      description: "Developed an IoT-based Smart Irrigation System that monitors soil moisture and environmental conditions to automate water supply. The system optimizes water usage, reduces manual effort, and improves crop efficiency through real-time data and cloud integration.",
+      technologies: ["HTML5", "CSS"],
+      githubUrl: "https://github.com/chandrabose165/smart_irrgation_System_Iot.git",
+      imageUrl: "/project3.jpg"
+    },
+    
   ];
 
   return (
@@ -37,13 +45,13 @@ export function Projects() {
         <div className="grid md:grid-cols-2 gap-8">
           {projects.map((project, index) => (
             <Card key={index} className="group overflow-hidden bg-card-gradient border-border hover:shadow-card transition-all duration-300">
-              <div className={`h-48 bg-gradient-to-br ${project.imageGradient} relative overflow-hidden`}>
+              <div className="h-48 relative overflow-hidden bg-muted">
+                <img
+                  src={project.imageUrl}
+                  alt={project.title}
+                  className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
+                />
                 <div className="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-colors duration-300" />
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="text-white text-xl font-bold opacity-80">
-                    {project.title}
-                  </div>
-                </div>
               </div>
               
               <div className="p-6">

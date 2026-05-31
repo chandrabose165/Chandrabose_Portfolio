@@ -24,8 +24,10 @@ export function Hero() {
             Data Science Graduate & Full-Stack Developer
           </p>
           <p className="text-lg text-gray-400 mb-12 max-w-2xl mx-auto leading-relaxed">
-            Motivated BTech Data Science graduate eager to apply analytical, programming, and visualization skills 
-            to deliver actionable insights. Seeking opportunities in data-driven organizations.
+            Motivated B.Tech Computer Science Engineering graduate eager to apply Java development, 
+            Spring Boot, and full stack skills to build scalable and efficient software solutions. 
+            Seeking opportunities in product-driven organizations to deliver real-world impact through clean and reliable code.
+            
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16">
