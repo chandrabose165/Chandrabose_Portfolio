@@ -35,8 +35,7 @@ export function Contact() {
     {
       icon: Mail,
       title: "Email",
-      value: "VarisaChandrabose20@gmail.com",
-      href: "mailto:VarisaChandrabose20@gmail.com"
+      value: "varisaChandrabose20@gmail.com"
     },
     {
       icon: Phone,
