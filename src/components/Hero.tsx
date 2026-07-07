@@ -13,10 +13,10 @@ export function Hero() {
       style={{ backgroundImage: `url(${heroImage})`, backgroundSize: 'cover', backgroundPosition: 'center' }}
     >
       {/* Overlay for better text readability */}
-      <div className="absolute inset-0 bg-black/50" />
+      <div className="absolute inset-0 bg-black/50 hero-overlay-glow" />
       
       <div className="relative z-10 text-center max-w-4xl mx-auto px-6">
-        <div className="animate-fade-in">
+        <div className="animate-fade-in-up">
           <h1 className="text-6xl md:text-8xl font-bold mb-6 bg-text-gradient bg-clip-text text-transparent">
             Varisa Chandrabose
           </h1>

@@ -44,7 +44,7 @@ export function Projects() {
         
         <div className="grid md:grid-cols-2 gap-8">
           {projects.map((project, index) => (
-            <Card key={index} className="group overflow-hidden bg-card-gradient border-border hover:shadow-card transition-all duration-300">
+            <Card key={index} className="group overflow-hidden bg-card-gradient border-border hover:shadow-card transition-all duration-300 animate-card-pop">
               <div className="h-48 relative overflow-hidden bg-muted">
                 <img
                   src={project.imageUrl}

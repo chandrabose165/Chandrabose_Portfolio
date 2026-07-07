@@ -26,7 +26,7 @@ export function Skills() {
   ];
 
   return (
-    <section id="skills" className="py-24 px-6 bg-muted/20">
+    <section id="skills" className="py-24 px-6 bg-muted/20 animate-fade-in-up">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-5xl font-bold mb-6 bg-text-gradient bg-clip-text text-transparent">
@@ -49,7 +49,7 @@ export function Skills() {
                   <Badge 
                     key={skillIndex} 
                     variant="secondary" 
-                    className="px-4 py-2 text-sm font-medium bg-card-gradient border border-border hover:shadow-glow transition-all duration-300 cursor-default"
+                    className="px-4 py-2 text-sm font-medium bg-card-gradient border border-border hover:shadow-glow transition-all duration-300 cursor-pointer"
                   >
                     {skill}
                   </Badge>

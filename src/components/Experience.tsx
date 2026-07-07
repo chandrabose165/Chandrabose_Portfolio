@@ -36,7 +36,7 @@ export function Experience() {
   ];
 
   return (
-    <section id="experience" className="py-24 px-6 bg-muted/20">
+    <section id="experience" className="py-24 px-6 bg-muted/20 animate-fade-in-up">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-5xl font-bold mb-6 bg-text-gradient bg-clip-text text-transparent">
@@ -50,7 +50,7 @@ export function Experience() {
         
         <div className="space-y-8">
           {experiences.map((exp, index) => (
-            <Card key={index} className="p-8 bg-card-gradient border-border hover:shadow-card transition-all duration-300">
+            <Card key={index} className="p-8 bg-card-gradient border-border hover:shadow-card transition-all duration-300 animate-card-pop">
               <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between mb-6">
                 <div className="flex items-start space-x-4 mb-4 lg:mb-0">
                   <div className="p-3 bg-primary/10 rounded-lg">

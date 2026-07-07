@@ -21,7 +21,7 @@ export function About() {
   ];
 
   return (
-    <section id="about" className="py-24 px-6">
+    <section id="about" className="py-24 px-6 animate-fade-in-up">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-5xl font-bold mb-6 bg-text-gradient bg-clip-text text-transparent">

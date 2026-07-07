@@ -53,7 +53,7 @@ export function Contact() {
   ];
 
   return (
-    <section id="contact" className="py-24 px-6 bg-muted/20">
+    <section id="contact" className="py-24 px-6 bg-muted/20 animate-fade-in-up">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-5xl font-bold mb-6 bg-text-gradient bg-clip-text text-transparent">
@@ -93,7 +93,7 @@ export function Contact() {
             </div>
           </div>
           
-          <Card className="p-8 bg-card-gradient border-border">
+          <Card className="p-8 bg-card-gradient border-border animate-card-pop">
             <form onSubmit={handleSubmit} className="space-y-6">
               <div>
                 <label htmlFor="name" className="block text-sm font-medium mb-2 text-foreground">

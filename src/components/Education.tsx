@@ -27,7 +27,7 @@ export function Education() {
   ];
 
   return (
-    <section id="education" className="py-24 px-6">
+    <section id="education" className="py-24 px-6 animate-fade-in-up">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-5xl font-bold mb-6 bg-text-gradient bg-clip-text text-transparent">
@@ -41,7 +41,7 @@ export function Education() {
         
         <div className="space-y-6">
           {education.map((edu, index) => (
-            <Card key={index} className="p-6 bg-card-gradient border-border hover:shadow-card transition-all duration-300">
+            <Card key={index} className="p-6 bg-card-gradient border-border hover:shadow-card transition-all duration-300 animate-card-pop">
               <div className="flex flex-col md:flex-row md:items-center md:justify-between">
                 <div className="flex items-start space-x-4 mb-4 md:mb-0">
                   <div className="p-3 bg-primary/10 rounded-lg">
